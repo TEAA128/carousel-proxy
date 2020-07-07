@@ -6,7 +6,7 @@ const cors = require('cors');
 
 const app = express();
 const port = 3000;
-
+//static
 app.use(express.static(path.join(__dirname, '../client')));
 app.use(bodyParser.json());
 app.use(cors());
